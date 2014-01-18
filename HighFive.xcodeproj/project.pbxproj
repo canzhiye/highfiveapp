@@ -27,6 +27,7 @@
 		FC62C6F6188A2F730012F570 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC62C6F5188A2F730012F570 /* QuartzCore.framework */; };
 		FC62C6F8188A34420012F570 /* GUI in Resources */ = {isa = PBXBuildFile; fileRef = FC62C6F7188A34420012F570 /* GUI */; };
 		FC62C6FA188A470E0012F570 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC62C6F9188A470E0012F570 /* CoreMotion.framework */; };
+		FC62C6FD188A67B30012F570 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC62C6FC188A67B30012F570 /* CoreLocation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		FC62C6F5188A2F730012F570 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		FC62C6F7188A34420012F570 /* GUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GUI; sourceTree = "<group>"; };
 		FC62C6F9188A470E0012F570 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+		FC62C6FC188A67B30012F570 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC62C6FD188A67B30012F570 /* CoreLocation.framework in Frameworks */,
 				FC62C6FA188A470E0012F570 /* CoreMotion.framework in Frameworks */,
 				FC62C6F6188A2F730012F570 /* QuartzCore.framework in Frameworks */,
 				FC62C6F4188A2F6E0012F570 /* Accounts.framework in Frameworks */,
@@ -118,6 +121,7 @@
 		FC62C6B8188A2CD20012F570 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC62C6FC188A67B30012F570 /* CoreLocation.framework */,
 				FC62C6F9188A470E0012F570 /* CoreMotion.framework */,
 				FC62C6F5188A2F730012F570 /* QuartzCore.framework */,
 				FC62C6F3188A2F6E0012F570 /* Accounts.framework */,
