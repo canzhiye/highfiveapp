@@ -7,7 +7,18 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <CoreMotion/CoreMotion.h>
 
-@interface HighFiveFirstViewController : UIViewController
+@interface HighFiveFirstViewController : UIViewController <NSURLConnectionDelegate>
+{
+    NSString *screenName;
+    NSString *userID;
+    
+    UILabel *usernameLabel;
+    UIImageView *profilePicImageView;
+}
+@property (nonatomic, retain) IBOutlet UILabel *usernameLabel;
+@property (nonatomic, retain) IBOutlet UIImageView *profilePicImageView;
+@property (strong, nonatomic) CMMotionManager *motionManager;
 
 @end
