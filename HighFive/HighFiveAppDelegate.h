@@ -9,7 +9,9 @@
 #import <UIKit/UIKit.h>
 
 @interface HighFiveAppDelegate : UIResponder <UIApplicationDelegate>
+{
 
+}
 @property (strong, nonatomic) UIWindow *window;
 
 @end

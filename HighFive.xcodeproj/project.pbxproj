@@ -25,9 +25,22 @@
 		FC62C6F2188A2CF00012F570 /* Social.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC62C6F1188A2CF00012F570 /* Social.framework */; };
 		FC62C6F4188A2F6E0012F570 /* Accounts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC62C6F3188A2F6E0012F570 /* Accounts.framework */; };
 		FC62C6F6188A2F730012F570 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC62C6F5188A2F730012F570 /* QuartzCore.framework */; };
-		FC62C6F8188A34420012F570 /* GUI in Resources */ = {isa = PBXBuildFile; fileRef = FC62C6F7188A34420012F570 /* GUI */; };
 		FC62C6FA188A470E0012F570 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC62C6F9188A470E0012F570 /* CoreMotion.framework */; };
 		FC62C6FD188A67B30012F570 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC62C6FC188A67B30012F570 /* CoreLocation.framework */; };
+		FC7849FD188AD4BF00C57105 /* launchScreen.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7849FB188AD4BF00C57105 /* launchScreen.png */; };
+		FC7849FE188AD4BF00C57105 /* profilePicBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7849FC188AD4BF00C57105 /* profilePicBackground.png */; };
+		FC784A00188AD5F400C57105 /* tabBarBackground.png in Resources */ = {isa = PBXBuildFile; fileRef = FC7849FF188AD5F400C57105 /* tabBarBackground.png */; };
+		FC784A02188AE03A00C57105 /* handTabBarIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC784A01188AE03A00C57105 /* handTabBarIcon.png */; };
+		FC784A04188AE12900C57105 /* settingsIcon.png in Resources */ = {isa = PBXBuildFile; fileRef = FC784A03188AE12900C57105 /* settingsIcon.png */; };
+		FC784A07188AE81100C57105 /* AccountsTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC784A06188AE81100C57105 /* AccountsTableViewController.m */; };
+		FC784A09188B126600C57105 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC784A08188B126600C57105 /* AudioToolbox.framework */; };
+		FC784A0B188B137400C57105 /* slap.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = FC784A0A188B137400C57105 /* slap.mp3 */; };
+		FC784A0D188B13E700C57105 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC784A0C188B13E700C57105 /* AVFoundation.framework */; };
+		FC784A0F188B471000C57105 /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC784A0E188B471000C57105 /* FacebookSDK.framework */; };
+		FC784AB5188BB1A200C57105 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC784AB4188BB1A200C57105 /* CFNetwork.framework */; };
+		FC784AB7188BB1BB00C57105 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC784AB6188BB1BB00C57105 /* SystemConfiguration.framework */; };
+		FC784AB9188BB1C400C57105 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC784AB8188BB1C400C57105 /* MobileCoreServices.framework */; };
+		FC784ABB188BB1CF00C57105 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = FC784ABA188BB1CF00C57105 /* libz.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -65,9 +78,23 @@
 		FC62C6F1188A2CF00012F570 /* Social.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Social.framework; path = System/Library/Frameworks/Social.framework; sourceTree = SDKROOT; };
 		FC62C6F3188A2F6E0012F570 /* Accounts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accounts.framework; path = System/Library/Frameworks/Accounts.framework; sourceTree = SDKROOT; };
 		FC62C6F5188A2F730012F570 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		FC62C6F7188A34420012F570 /* GUI */ = {isa = PBXFileReference; lastKnownFileType = folder; path = GUI; sourceTree = "<group>"; };
 		FC62C6F9188A470E0012F570 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		FC62C6FC188A67B30012F570 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		FC7849FB188AD4BF00C57105 /* launchScreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = launchScreen.png; path = GUI/launchScreen.png; sourceTree = "<group>"; };
+		FC7849FC188AD4BF00C57105 /* profilePicBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = profilePicBackground.png; path = GUI/profilePicBackground.png; sourceTree = "<group>"; };
+		FC7849FF188AD5F400C57105 /* tabBarBackground.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tabBarBackground.png; sourceTree = "<group>"; };
+		FC784A01188AE03A00C57105 /* handTabBarIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = handTabBarIcon.png; sourceTree = "<group>"; };
+		FC784A03188AE12900C57105 /* settingsIcon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = settingsIcon.png; sourceTree = "<group>"; };
+		FC784A05188AE81100C57105 /* AccountsTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountsTableViewController.h; sourceTree = "<group>"; };
+		FC784A06188AE81100C57105 /* AccountsTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountsTableViewController.m; sourceTree = "<group>"; };
+		FC784A08188B126600C57105 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		FC784A0A188B137400C57105 /* slap.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = slap.mp3; sourceTree = "<group>"; };
+		FC784A0C188B13E700C57105 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		FC784A0E188B471000C57105 /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../Documents/FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		FC784AB4188BB1A200C57105 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		FC784AB6188BB1BB00C57105 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		FC784AB8188BB1C400C57105 /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		FC784ABA188BB1CF00C57105 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,12 +102,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC784ABB188BB1CF00C57105 /* libz.dylib in Frameworks */,
+				FC784AB9188BB1C400C57105 /* MobileCoreServices.framework in Frameworks */,
+				FC784AB7188BB1BB00C57105 /* SystemConfiguration.framework in Frameworks */,
+				FC784AB5188BB1A200C57105 /* CFNetwork.framework in Frameworks */,
+				FC784A0D188B13E700C57105 /* AVFoundation.framework in Frameworks */,
+				FC784A09188B126600C57105 /* AudioToolbox.framework in Frameworks */,
 				FC62C6FD188A67B30012F570 /* CoreLocation.framework in Frameworks */,
 				FC62C6FA188A470E0012F570 /* CoreMotion.framework in Frameworks */,
 				FC62C6F6188A2F730012F570 /* QuartzCore.framework in Frameworks */,
 				FC62C6F4188A2F6E0012F570 /* Accounts.framework in Frameworks */,
 				FC62C6F2188A2CF00012F570 /* Social.framework in Frameworks */,
 				FC62C6BC188A2CD20012F570 /* CoreGraphics.framework in Frameworks */,
+				FC784A0F188B471000C57105 /* FacebookSDK.framework in Frameworks */,
 				FC62C6BE188A2CD20012F570 /* UIKit.framework in Frameworks */,
 				FC62C6BA188A2CD20012F570 /* Foundation.framework in Frameworks */,
 			);
@@ -121,6 +155,13 @@
 		FC62C6B8188A2CD20012F570 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				FC784ABA188BB1CF00C57105 /* libz.dylib */,
+				FC784AB8188BB1C400C57105 /* MobileCoreServices.framework */,
+				FC784AB6188BB1BB00C57105 /* SystemConfiguration.framework */,
+				FC784AB4188BB1A200C57105 /* CFNetwork.framework */,
+				FC784A0E188B471000C57105 /* FacebookSDK.framework */,
+				FC784A0C188B13E700C57105 /* AVFoundation.framework */,
+				FC784A08188B126600C57105 /* AudioToolbox.framework */,
 				FC62C6FC188A67B30012F570 /* CoreLocation.framework */,
 				FC62C6F9188A470E0012F570 /* CoreMotion.framework */,
 				FC62C6F5188A2F730012F570 /* QuartzCore.framework */,
@@ -137,12 +178,19 @@
 		FC62C6BF188A2CD20012F570 /* HighFive */ = {
 			isa = PBXGroup;
 			children = (
-				FC62C6F7188A34420012F570 /* GUI */,
+				FC784A0A188B137400C57105 /* slap.mp3 */,
+				FC784A03188AE12900C57105 /* settingsIcon.png */,
+				FC784A01188AE03A00C57105 /* handTabBarIcon.png */,
+				FC7849FF188AD5F400C57105 /* tabBarBackground.png */,
+				FC7849FB188AD4BF00C57105 /* launchScreen.png */,
+				FC7849FC188AD4BF00C57105 /* profilePicBackground.png */,
 				FC62C6C8188A2CD20012F570 /* HighFiveAppDelegate.h */,
 				FC62C6C9188A2CD20012F570 /* HighFiveAppDelegate.m */,
 				FC62C6CB188A2CD20012F570 /* Main.storyboard */,
 				FC62C6CE188A2CD20012F570 /* HighFiveFirstViewController.h */,
 				FC62C6CF188A2CD20012F570 /* HighFiveFirstViewController.m */,
+				FC784A05188AE81100C57105 /* AccountsTableViewController.h */,
+				FC784A06188AE81100C57105 /* AccountsTableViewController.m */,
 				FC62C6D1188A2CD20012F570 /* HighFiveSecondViewController.h */,
 				FC62C6D2188A2CD20012F570 /* HighFiveSecondViewController.m */,
 				FC62C6D4188A2CD20012F570 /* Images.xcassets */,
@@ -228,6 +276,9 @@
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Canzhi Ye";
 				TargetAttributes = {
+					FC62C6B5188A2CD20012F570 = {
+						DevelopmentTeam = 6C38L3A3L8;
+					};
 					FC62C6D9188A2CD20012F570 = {
 						TestTargetID = FC62C6B5188A2CD20012F570;
 					};
@@ -257,10 +308,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FC62C6F8188A34420012F570 /* GUI in Resources */,
 				FC62C6D5188A2CD20012F570 /* Images.xcassets in Resources */,
+				FC7849FE188AD4BF00C57105 /* profilePicBackground.png in Resources */,
+				FC784A0B188B137400C57105 /* slap.mp3 in Resources */,
+				FC784A02188AE03A00C57105 /* handTabBarIcon.png in Resources */,
+				FC7849FD188AD4BF00C57105 /* launchScreen.png in Resources */,
 				FC62C6C4188A2CD20012F570 /* InfoPlist.strings in Resources */,
+				FC784A04188AE12900C57105 /* settingsIcon.png in Resources */,
 				FC62C6CD188A2CD20012F570 /* Main.storyboard in Resources */,
+				FC784A00188AD5F400C57105 /* tabBarBackground.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +338,7 @@
 				FC62C6CA188A2CD20012F570 /* HighFiveAppDelegate.m in Sources */,
 				FC62C6D0188A2CD20012F570 /* HighFiveFirstViewController.m in Sources */,
 				FC62C6D3188A2CD20012F570 /* HighFiveSecondViewController.m in Sources */,
+				FC784A07188AE81100C57105 /* AccountsTableViewController.m in Sources */,
 				FC62C6C6188A2CD20012F570 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -409,10 +466,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/canzhiye/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HighFive/HighFive-Prefix.pch";
 				INFOPLIST_FILE = "HighFive/HighFive-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -422,10 +486,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/canzhiye/Documents/FacebookSDK,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HighFive/HighFive-Prefix.pch";
 				INFOPLIST_FILE = "HighFive/HighFive-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
@@ -491,6 +562,7 @@
 				FC62C6ED188A2CD20012F570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC62C6EE188A2CD20012F570 /* Build configuration list for PBXNativeTarget "HighFiveTests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +571,7 @@
 				FC62C6F0188A2CD20012F570 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

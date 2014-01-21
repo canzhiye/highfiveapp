@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface HighFiveSecondViewController : UIViewController
+@interface HighFiveSecondViewController : UIViewController <UITextViewDelegate>
+{
+    UITextView *introMessageTextView;
+}
+@property (nonatomic, retain) IBOutlet UITextView *introMessageTextView;
 
 @end
